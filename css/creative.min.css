@@ -8,51 +8,13 @@ section h2 {
     padding: 4px 8px; 
   }
 
-.responsive-table {
-    width: 50%;
-    margin-bottom: 5em;
-    
+  img {
+    max-width: 100%;
+    height: auto;
 }
-
-
-caption {
-    margin-bottom: 10px;
-    margin-left: 10px;
-    font-size: 1em;
-    font-weight: bold;
-
-}
-
-th {
-    border: 1px solid #e1e1e1;
-    font-weight: normal;
-    text-align: center;
-    font-size: 17px;
-    
-  }
-
-
-tr {
-    margin-bottom: 1em;
-    border: 1px solid silver;
-}
-td {
-    padding: 0.5em;
-    vertical-align: middle;
-    text-align: center;
-    border: 1px solid silver;
-}
-
-tbody {
-     
-      display: table-row-group; 
-      margin-bottom: 1em;
-      border: 1px solid silver;
-      
-    }
 
     div#background {
-        height: 1000px;
+        height: 1000px; 
         width: 100%;
         background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
         padding-top: 20px;
