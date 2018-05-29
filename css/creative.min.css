@@ -46,7 +46,7 @@ section h2 {
       }
       
       figure.pic1 {
-        -webkit-transform : rotate(-10deg);
+        -webkit-transform : rotate(-10deg); 
         z-index: 1;
       }
       
@@ -178,7 +178,7 @@ section h2 {
       
       #background figure:hover {
         box-shadow: 5px 10px 100px black;
-        -webkit-transform: scale(1.1,1.1);
+        -webkit-transform: scale(1.5);
         z-index: 20;
       }
       .videoWrapper {
@@ -194,3 +194,5 @@ section h2 {
         width: 100%;
         height: 100%;
       }
+
+  
