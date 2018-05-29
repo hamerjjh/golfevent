@@ -14,13 +14,14 @@ section h2 {
 }
 
     div#background {
-        height: 1000px; 
+        height: 100%; 
         width: 100%;
-        background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
         padding-top: 20px;
       }
       
       div#gallery {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
         margin: auto;
         padding-left: 50px;
@@ -28,7 +29,7 @@ section h2 {
       
       
       #background img {
-        height: 150px;
+        height: 200px;
         margin: 0px;
    
       }
